@@ -12,8 +12,6 @@ public class LLS {
 
         Vector calculate = left.calculate(right); // Calculate left=right to get {m, t}
 
-        System.out.println(left);
-
         return calculate.toPolynom(); // Turn to Polynom
     }
 }

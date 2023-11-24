@@ -91,8 +91,7 @@ public class Matrix {
 
         double m = numerator / denominator;
 
-        //Calculate t
-        double t = (v0 - m01 * m) / m00;
+        double t = (v0 - m01 * m) / m00; // Calculate t
 
         return new Vector(new Double[]{m, t});
     }
